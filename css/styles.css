@@ -1,0 +1,78 @@
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+span {
+  background-color: gray;
+  float: left;
+  box-sizing: border-box;
+  border: 5px solid black;
+  margin: 10px;
+  height: auto;
+  font-family: Helvetica;
+}
+p {
+  font-size: 120%;
+  padding: 15px;
+  margin-top: 20%;
+}
+
+div {
+  float: right;
+  box-sizing: border-box;
+  border: 5px solid black;
+  padding: 10px;
+  height: auto;
+  width: 40%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 150%;
+  margin-left: 100%;
+}
+
+#item-1 {
+  background-color: red;
+}
+#item-2 {
+  background-color: yellow;
+}
+#item-3 {
+  background-color: cyan;
+}
+
+@media (min-width: 992px) {
+  #b1 {
+    width: 31%;
+  }
+  #b2 {
+    width: 31%;
+  }
+  #b3 {
+    width: 31%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #b1 {
+    width: 47%;
+  }
+  #b2 {
+    width: 47%;
+  }
+  #b3 {
+    width: 96.5%;
+  }
+}
+
+@media (max-width: 767px) {
+  #b1 {
+    width: 97%;
+  }
+  #b2 {
+    width: 97%;
+  }
+  #b3 {
+    width: 97%;
+  }
+}
